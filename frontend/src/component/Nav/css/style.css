@@ -1,0 +1,25 @@
+nav {
+    background-color: rgb(255, 255, 255);
+    position: fixed;
+    top: 0;
+    left: 0;
+    /* z-index: 100; */
+    width: 100%;
+    height: 3rem;
+    /* overflow: hidden; */
+}
+
+.nav-link {
+    float: right;
+    font-size: 24px;
+    padding: 12px;
+    text-decoration: none;
+    text-align: center;
+    height: 3rem;
+    width: 9rem;
+    transition: all 0.25s ease-out;
+}
+
+.nav-link:nth-child(1) {
+    float: left;
+}

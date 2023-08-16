@@ -1,0 +1,83 @@
+.App {
+  text-align: center;
+  height: 95vh;
+  width: 100%;
+  background: #EBF7F0;
+  background-size: cover;
+  bottom: 0;
+}
+
+.App-logo {
+  height: 10vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #9E9000;
+  min-height: 10vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #CdEFBC;
+}
+
+.pagebody {
+  margin-top: 3rem;
+}
+
+nav+div {
+  margin-top: 3rem;
+}
+
+h1.home {
+
+  position: relative;
+  font-family: 'Kaushan Script', fantasy;
+  font-size: 4rem;
+  color: #a201e8;
+}
+
+
+
+.form-container {
+  margin: 5rem 10rem;
+}
+
+
+/* .card-link {
+  margin: 5rem 5rem;
+} */
+
+.login-button {
+  /* position: absolute; */
+  left: 24.85%;
+  right: 22.9%;
+  top: 64.62%;
+  bottom: 25.91%;
+
+  background: #3C3A58;
+  border-radius: 15px;
+  color: #EBF7F0;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
